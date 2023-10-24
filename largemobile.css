@@ -1,0 +1,210 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'Open san', sans-serif;
+}
+
+/* header */
+.h-section{
+    padding-top: 0px;
+    padding-bottom: 100px;
+    margin: 0px 0px;
+}
+.img-healthy{
+    width: 100%;
+    display: block;
+    margin: auto;
+    
+}
+.section{
+  margin-bottom: 30px;
+}
+.content-title{
+    color: rgb(61, 57, 57);
+    font-weight: 600;
+    font-size: 40px;
+    margin-top: 15px; 
+    text-align: center;  
+}
+.highlight{
+   color: orange;
+}
+.content-text{
+    margin-top: 15px;
+    color: rgb(95, 95, 95);
+    font-weight: 600;
+    font-size: 15px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.bt-pri{
+   background-color: rgb(67, 199, 239);
+   background-image: linear-gradient(blue, rgb(234, 131, 131));
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    border: 0px;
+    padding: 10px;
+    border-radius: 20px;
+    display: block;
+    margin: auto;
+}
+/* About me */
+.about-section{
+    background-image: url(images/shapes/Frame\ 57.jpg);
+    background-size: cover;
+    background-position: center;
+    max-width: 100%;
+    padding-bottom: 15px;
+   margin-bottom: 40px;
+}
+.img{
+    width: 50%;
+    display: block;
+    margin: auto;
+    
+}
+ .about-info{
+   
+    gap: 100px;
+    margin-left: 20px;
+    align-items: center;
+}
+.about-title{
+    color: rgb(117, 111, 111);
+    font-weight: 600;
+    font-size: 30px;
+    margin-top: 35px;
+    text-align: center; 
+    padding-bottom: 15px;
+}
+.about-text{
+    color: rgb(119, 115, 115);
+    font-size: 15px;
+    text-align: center; 
+    padding-bottom: 20px;
+}
+.bt-pri-1{
+    background-color: rgb(67, 199, 239);
+    background-image: linear-gradient(blue, rgb(234, 131, 131));
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    border: 0px;
+    padding: 10px;
+    border-radius: 20px;
+    
+    display: block;
+    margin: auto;
+}
+
+ /* My recipi */
+
+ .recipi-section{
+    margin: 0px 50px;
+ }
+ .r-title{
+    color: rgb(121, 120, 118);
+    font-weight: 600;
+    font-size: 30px;
+    text-align: center;
+ }
+ .r-text{
+    color: rgb(77, 77, 77);
+    font-size: 15px;
+    padding: 5px;
+    margin-bottom: 18px;
+    text-align: center;
+ }
+ .r-container{
+    display: flex;
+    gap: 25px;
+    padding: 0px 10px;
+    
+  }
+  .img-food{
+   width: 100%;
+  }
+  .img-food2{
+   width: 100%;
+  }
+  .recipi-1{
+   background-color: rgb(253, 253, 253);
+   box-shadow: 0px 6px 50px rgba(212, 205, 205, 0.952);
+   border-radius: 25px;
+   padding: 20px;
+  margin-bottom: 20px;
+}
+
+.recipi-2{
+   background-color: rgb(253, 253, 253);
+   box-shadow: 0px 6px 50px rgba(212, 205, 205, 0.952);
+   border-radius: 25px;
+   padding: 20px;
+  
+}
+ .recipi-title{
+    font-weight: 700;
+    font-size: 20px;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    text-align: center;
+ }
+ .recipi-text{
+    color: rgb(77, 77, 77);
+    font-size: 15px;
+    padding: 5px 5px;
+    text-align: center;
+    margin-bottom: 5px;
+       
+ }
+ /* Subscribe */
+ .subscribe{
+   margin-top: 30px;
+    margin-bottom: 70px;
+ }
+ .sub-container{
+    display: flex;
+    gap: 50px;
+    padding: 0px 100px;
+    text-align: center;
+    justify-content: center;
+    background-color: rgb(253, 253, 253);
+    box-shadow: 0px 6px 50px rgba(212, 205, 205, 0.952);
+    border-radius: 25px;
+    padding: 20px;
+    margin: 5px 50px ;
+    margin-left: 50px;
+ }
+ .title{
+    color: rgb(61, 57, 57);
+    font-weight: 600;
+    font-size: 30px;
+    margin-top: 15px; 
+ }
+ .text{
+    color: rgb(77, 77, 77);
+    font-size: 15px;
+    padding: 10px 0px;
+    margin-bottom: 5px;
+ }
+
+
+ /* footer */
+ footer{
+    background-color:rgb(0, 0, 0);
+    padding: 50px;
+    text-align: center;   
+}
+.f-title{
+    font-weight: 700;
+    font-size: 30px;
+    color: rgb(239, 245, 247);
+    margin-bottom: 20px;
+    font-family: 'Lobster', cursive;
+}
+.f-sub-title{
+    font-weight: 200;
+    font-size: 15px;
+    color: rgb(218, 218, 218);
+}
+

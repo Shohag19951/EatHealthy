@@ -1,16 +1,21 @@
 *{
+    box-sizing: border-box;
     padding: 0;
     margin: 0;
     font-family: 'Open san', sans-serif;
 }
+
 /* header */
 .h-section{
     padding-top: 0px;
     padding-bottom: 100px;
     margin: 0px 80px;
 }
+.img-healthy{
+   width: 100%;
+}
 .info-container{
-    display: flex;
+   display: flex;
     gap: 0px;
     margin-top: 0px;
     margin-bottom: 0px;
@@ -40,7 +45,8 @@
     border: 0px;
     padding: 10px;
     border-radius: 20px;
-  margin-top: 35px;
+    display: block;
+    margin: auto;
 }
 /* About me */
 .about-section{
@@ -67,6 +73,7 @@
     color: rgb(119, 115, 115);
     font-size: 15px;
     padding: 10px 300px; 
+    margin-bottom: 20px;
 }
 .bt-pri-1{
     background-color: rgb(67, 199, 239);
@@ -74,9 +81,10 @@
     color: rgb(255, 255, 255);
     font-size: 20px;
     border: 0px;
-    padding: 10px;
     border-radius: 20px;
-   margin: 20px 300px; 
+    padding: 10px;
+   display: block;
+   margin: auto;
 }
 
  /* My recipi */
@@ -99,9 +107,10 @@
     text-align: center;
  }
  .r-container{
-    display: flex;
+   display: flex;
     gap: 25px;
-    padding: 0px 100px;
+    padding: 0px 10px;
+
  }
  .recipi-1{
     background-color: rgb(253, 253, 253);
@@ -110,6 +119,12 @@
     padding: 20px;
    
  }
+ .img-food{
+   width: 100%;
+ }
+ .img-food2{
+   width: 100%;
+}
 
  .recipi-2{
     background-color: rgb(253, 253, 253);
@@ -160,6 +175,7 @@
     padding: 10px 0px;
     margin-bottom: 5px;
  }
+
  /* footer */
  footer{
     background-color:rgb(0, 0, 0);
