@@ -165,7 +165,7 @@
  }
  .sub-container{
     display: flex;
-    gap: 70px;
+    gap: 80px;
     padding: 0px 100px;
     text-align: center;
     justify-content: center;
@@ -179,7 +179,7 @@
  .title{
     color: rgb(61, 57, 57);
     font-weight: 600;
-    font-size: 40px;
+    font-size: 30px;
     margin-top: 15px; 
  }
  .text{
