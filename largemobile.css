@@ -124,7 +124,7 @@
  .r-container{
     display: flex;
     gap: 25px;
-    padding: 0px 10px;
+    
     
   }
   .img-food{
@@ -171,7 +171,7 @@
  }
  .sub-container{
     display: flex;
-    gap: 50px;
+    gap: 20px;
     padding: 0px 100px;
     text-align: center;
     justify-content: center;
