@@ -60,6 +60,7 @@
 }
 .img{
     width: 50%;
+    padding-top: 50px;
     display: block;
     margin: auto;
     
@@ -83,6 +84,7 @@
     font-size: 15px;
     text-align: center; 
     padding-bottom: 20px;
+    margin-right: 15px;
 }
 .bt-pri-1{
     background-color: rgb(67, 199, 239);
@@ -161,10 +163,11 @@
  .subscribe{
    margin-top: 30px;
     margin-bottom: 70px;
+    margin-right: 3px;
  }
  .sub-container{
     display: flex;
-    gap: 50px;
+    gap: 13px;
     padding: 0px 100px;
     text-align: center;
     justify-content: center;
