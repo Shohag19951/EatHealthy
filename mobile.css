@@ -54,21 +54,22 @@
     background-image: url(images/shapes/Frame\ 57.jpg);
     background-size: cover;
     background-position: center;
+    display: block;
+   margin: auto;
     max-width: 100%;
     padding-bottom: 15px;
    margin-bottom: 40px;
+   
 }
 .img{
-    width: 50%;
+    width: 40%;
     padding-top: 50px;
-    padding-left: 35px;
+    padding-left: 20px;
     display: block;
-    margin: auto;
-    
+    margin: auto;    
 }
- .about-info{
-   
-    gap: 100px;
+ .about-info{  
+   gap: 100px;
     margin-left: 20px;
     align-items: center;
 }
@@ -168,7 +169,7 @@
  }
  .sub-container{
     display: flex;
-    gap: 15px;
+    gap: 10px;
     padding: 0px 100px;
     text-align: center;
     justify-content: center;
@@ -182,7 +183,7 @@
  .title{
     color: rgb(61, 57, 57);
     font-weight: 600;
-    font-size: 21px;
+    font-size: 25px;
     margin-top: 15px; 
  }
  .text{

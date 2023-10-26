@@ -165,7 +165,7 @@
  }
  .sub-container{
     display: flex;
-    gap: 80px;
+    gap: 60px;
     padding: 0px 100px;
     text-align: center;
     justify-content: center;
